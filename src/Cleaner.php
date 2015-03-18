@@ -15,10 +15,6 @@ class Cleaner
         $this->cli = new CLImate();
     }
 
-    protected function fileContent($filename)
-    {
-        return file_get_contents($filename);
-    }
     public function clean($files)
     {
         $stats['cleaned'] = 0;
