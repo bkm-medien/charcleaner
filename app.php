@@ -34,13 +34,7 @@ $cleanTerms = [
     "a&#xe6;#8230;N"                         => "ä",
     "&#xe6;#8222;"                           => "Ä",
     "iso-8859-1"                             => "utf-8",
-    " href=\"http://2008.tsi-kongress.de/\"" => "",
-    " href=\"http://2009.tsi-kongress.de/\"" => "",
-    " href=\"http://2010.tsi-kongress.de/\"" => "",
-    " href=\"http://2011.tsi-kongress.de/\"" => "",
-    " href=\"http://2012.tsi-kongress.de/\"" => "",
-    " href=\"http://2013.tsi-kongress.de/\"" => "",
-  ];
+ ];
 $cleaner->cleanTerms = $cleanTerms;
 
 /* Array mit allen Dateien ermitteln */
