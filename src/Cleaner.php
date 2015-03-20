@@ -11,7 +11,7 @@ class Cleaner
      *     array(
      *         'suchen'  => 'ersetzen',
      *         'suchen1' => 'ersetzen1',
-     *     ).
+     *     )
      *
      * @var array
      */
